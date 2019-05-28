@@ -29,7 +29,7 @@ void strongref_free ( mrb_state* M, void* ptr ) {
 }
 
 mrb_data_type const weakref_type = { "WeakRef", &weakref_free };
-mrb_data_type const strongref_type = { "StrongkRef", &strongref_free };
+mrb_data_type const strongref_type = { "StrongRef", &strongref_free };
 
 //----------------------------------------------------------------//
 /*
